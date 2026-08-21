@@ -1,0 +1,26 @@
+{
+  "name": "resumespec-generators",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Applications that consume ResumeSpec to produce professional representations (PDF, portfolio, and more).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "generate:types": "npm run generate:types -w @resumespec-generators/core"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0"
+  }
+}

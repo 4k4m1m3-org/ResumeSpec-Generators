@@ -1,0 +1,24 @@
+ResumeSpec-Generators
+Copyright 2026 Wuilmer Bolivar and the ResumeSpec-Generators Authors
+
+This product includes the ResumeSpec v1.0.0 JSON Schema and official
+examples, vendored from:
+
+    https://github.com/4k4m1m3-org/ResumeSpec
+
+ResumeSpec software, schemas, and examples are licensed under the
+Apache License, Version 2.0.
+
+ResumeSpec specification and documentation are licensed under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+
+Suggested attribution:
+
+    Based on the ResumeSpec open standard.
+
+See vendor/resumespec/v1.0.0/SOURCE.md for the exact tag, commit, and
+schema $id pin used by this repository.
+
+The ResumeSpec name, logo, and branding are not licensed under Apache 2.0
+or CC BY 4.0. Use of the ResumeSpec name must not imply official
+endorsement or certification without prior permission.

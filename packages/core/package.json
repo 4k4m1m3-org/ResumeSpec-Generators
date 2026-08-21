@@ -1,0 +1,37 @@
+{
+  "name": "@resumespec-generators/core",
+  "version": "0.1.0",
+  "description": "Parse and validate ResumeSpec documents in the browser or Node.js.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "generate:types": "json2ts --input ../../vendor/resumespec/v1.0.0/resumespec.schema.json --output src/generated/resumespec.ts --unreachableDefinitions --unknownAny --no-additionalProperties",
+    "build": "tsc -p tsconfig.json && mkdir -p dist/schema && cp src/schema/resumespec.schema.json dist/schema/resumespec.schema.json",
+    "test": "vitest run",
+    "lint": "eslint src tests"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/node": "^24.3.0",
+    "eslint": "^9.33.0",
+    "json-schema-to-typescript": "^15.0.4",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0",
+    "vitest": "^3.2.4"
+  }
+}

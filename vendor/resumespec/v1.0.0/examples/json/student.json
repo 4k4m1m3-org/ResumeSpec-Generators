@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "resumespecVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "profileVersion": "1.0.0",
+    "language": "en",
+    "created": "2026-01-01",
+    "updated": "2026-01-01",
+    "visibility": "public",
+    "tags": ["student", "early-career", "reference-profile"]
+  },
+  "sections": {
+    "identity": {
+      "person": {
+        "givenName": "Wuilmer",
+        "familyName": "Bolivar"
+      },
+      "contact": {
+        "email": "wuilmer.bolivar@example.com"
+      },
+      "location": {
+        "country": "PE",
+        "city": "Lima"
+      }
+    },
+    "summary": {
+      "text": "Computer Science student focused on software development and practical projects."
+    },
+    "experience": [
+      {
+        "position": {
+          "title": "Software Development Intern"
+        },
+        "organization": {
+          "name": "Example Technology Company"
+        },
+        "dateRange": {
+          "startDate": "2025-01",
+          "endDate": "2025-12",
+          "current": false
+        },
+        "employmentType": "internship",
+        "responsibilities": [
+          "Supported web application development.",
+          "Created documentation for technical solutions."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Student Web Application",
+        "role": "Developer",
+        "description": "Academic project for building a full-stack web application.",
+        "technologies": [
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "React"
+          }
+        ],
+        "links": [
+          {
+            "type": "repository",
+            "url": "https://github.com/example/student-web-app"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "intermediate"
+      },
+      {
+        "name": "Python",
+        "level": "intermediate"
+      }
+    ],
+    "education": [
+      {
+        "institution": {
+          "name": "Example University"
+        },
+        "degree": "Bachelor",
+        "fieldOfStudy": "Computer Science",
+        "dateRange": {
+          "startDate": "2023-01",
+          "current": true
+        }
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Programming Fundamentals",
+        "issuer": {
+          "name": "Example Learning Platform"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "intermediate"
+      }
+    ]
+  }
+}

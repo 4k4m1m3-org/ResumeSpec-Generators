@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "resumespecVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "profileVersion": "1.0.0",
+    "language": "en",
+    "created": "2026-01-01",
+    "updated": "2026-01-01",
+    "visibility": "public",
+    "tags": ["it-operations", "reference-profile"]
+  },
+  "sections": {
+    "identity": {
+      "person": {
+        "givenName": "Wuilmer",
+        "familyName": "Bolivar"
+      },
+      "contact": {
+        "email": "wuilmer.bolivar@example.com"
+      },
+      "location": {
+        "country": "PE",
+        "city": "Lima",
+        "timeZone": "America/Lima"
+      }
+    },
+    "summary": {
+      "text": "IT Operations professional focused on infrastructure management, reliability, and operational automation."
+    },
+    "experience": [
+      {
+        "position": {
+          "title": "IT Operations Specialist"
+        },
+        "organization": {
+          "name": "Example Technology Services"
+        },
+        "dateRange": {
+          "startDate": "2024-01",
+          "current": true
+        },
+        "employmentType": "full-time",
+        "workMode": "hybrid",
+        "responsibilities": [
+          "Maintain Linux and Windows server environments.",
+          "Automate recurring infrastructure tasks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Infrastructure Monitoring Lab",
+        "role": "Creator",
+        "description": "A laboratory environment for testing monitoring and infrastructure operations practices.",
+        "technologies": [
+          {
+            "name": "Linux"
+          },
+          {
+            "name": "Monitoring"
+          }
+        ],
+        "links": [
+          {
+            "type": "repository",
+            "url": "https://github.com/example/infrastructure-monitoring-lab"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Linux",
+        "level": "expert"
+      },
+      {
+        "name": "Incident Management",
+        "level": "advanced"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "IT Service Management Fundamentals",
+        "issuer": {
+          "name": "Example Training Institute"
+        }
+      }
+    ],
+    "education": [
+      {
+        "institution": {
+          "name": "Example University"
+        },
+        "degree": "Bachelor",
+        "fieldOfStudy": "Information Technology"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "advanced"
+      }
+    ]
+  }
+}

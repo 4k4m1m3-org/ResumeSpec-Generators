@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "resumespecVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "profileVersion": "1.0.0",
+    "language": "en",
+    "created": "2026-01-01",
+    "updated": "2026-01-01",
+    "visibility": "public",
+    "tags": ["developer", "reference-profile"]
+  },
+  "sections": {
+    "identity": {
+      "person": {
+        "givenName": "Wuilmer",
+        "familyName": "Bolivar",
+        "preferredName": "Wuilmer"
+      },
+      "contact": {
+        "email": "wuilmer.bolivar@example.com"
+      },
+      "location": {
+        "country": "PE",
+        "city": "Lima"
+      }
+    },
+    "summary": {
+      "text": "Software engineer focused on maintainable web applications and developer tools."
+    },
+    "experience": [
+      {
+        "position": {
+          "title": "Senior Software Engineer"
+        },
+        "organization": {
+          "name": "Example Software Company"
+        },
+        "dateRange": {
+          "startDate": "2023-01",
+          "current": true
+        },
+        "employmentType": "full-time",
+        "workMode": "remote",
+        "responsibilities": [
+          "Build and maintain production web applications.",
+          "Design API contracts for internal services."
+        ],
+        "achievements": [
+          "Reduced release regressions by improving automated test coverage."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "ResumeSpec Example Project",
+        "role": "Creator",
+        "description": "A structured profile specification project demonstrating portable professional data.",
+        "technologies": [
+          {
+            "name": "JSON Schema"
+          },
+          {
+            "name": "Python"
+          }
+        ],
+        "links": [
+          {
+            "type": "repository",
+            "url": "https://github.com/example/resumespec"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "advanced",
+        "category": "programming"
+      },
+      {
+        "name": "JSON Schema",
+        "level": "advanced",
+        "category": "standards"
+      }
+    ],
+    "education": [
+      {
+        "institution": {
+          "name": "Example University"
+        },
+        "degree": "Bachelor",
+        "fieldOfStudy": "Computer Science"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Software Development Fundamentals",
+        "issuer": {
+          "name": "Example Learning Platform"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "advanced"
+      }
+    ]
+  }
+}

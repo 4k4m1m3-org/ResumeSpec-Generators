@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "resumespecVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "profileVersion": "1.0.0",
+    "language": "en",
+    "created": "2026-01-01",
+    "updated": "2026-01-01",
+    "visibility": "public",
+    "tags": ["cybersecurity", "reference-profile"]
+  },
+  "sections": {
+    "identity": {
+      "person": {
+        "givenName": "Wuilmer",
+        "familyName": "Bolivar"
+      },
+      "contact": {
+        "email": "wuilmer.bolivar@example.com"
+      },
+      "location": {
+        "country": "PE",
+        "city": "Lima"
+      }
+    },
+    "summary": {
+      "text": "Cybersecurity professional focused on defensive security, monitoring, and incident response."
+    },
+    "experience": [
+      {
+        "position": {
+          "title": "Security Operations Analyst"
+        },
+        "organization": {
+          "name": "Example Security Operations Center"
+        },
+        "dateRange": {
+          "startDate": "2023-01",
+          "current": true
+        },
+        "employmentType": "full-time",
+        "workMode": "onsite",
+        "responsibilities": [
+          "Investigate alerts and security events.",
+          "Improve detection and response playbooks."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Security Monitoring Lab",
+        "role": "Creator",
+        "description": "A defensive security laboratory for practicing monitoring and response workflows.",
+        "technologies": [
+          {
+            "name": "SIEM"
+          },
+          {
+            "name": "Linux"
+          }
+        ],
+        "links": [
+          {
+            "type": "repository",
+            "url": "https://github.com/example/security-monitoring-lab"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Security Monitoring",
+        "level": "expert"
+      },
+      {
+        "name": "Incident Response",
+        "level": "advanced"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Security Fundamentals Certification",
+        "issuer": {
+          "name": "Example Security Institute"
+        }
+      }
+    ],
+    "education": [
+      {
+        "institution": {
+          "name": "Example University"
+        },
+        "degree": "Bachelor",
+        "fieldOfStudy": "Information Security"
+      }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "level": "native"
+      },
+      {
+        "language": "English",
+        "level": "advanced"
+      }
+    ]
+  }
+}

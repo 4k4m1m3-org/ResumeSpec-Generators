@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "resumespecVersion": "1.0.0",
+    "schemaVersion": "1.0.0",
+    "language": "en",
+    "x-ownerSystem": "example-hris"
+  },
+  "sections": {
+    "summary": {
+      "text": "Professional profile with a namespaced extension field."
+    },
+    "skills": [
+      {
+        "name": "Interoperability",
+        "x-confidence": "self-reported"
+      }
+    ],
+    "x-exampleSection": {
+      "note": "Applications may preserve x-* extension data without treating it as core ResumeSpec semantics."
+    }
+  },
+  "x-exampleDocumentId": "profile-001"
+}
